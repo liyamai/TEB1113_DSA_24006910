@@ -1,8 +1,3 @@
-/*
-ID = 24006910
-Name = Aliya Maisarah
-*/
-
 #include <iostream>
 #include <vector>
 using namespace std;
