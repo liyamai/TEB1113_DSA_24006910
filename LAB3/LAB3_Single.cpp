@@ -51,10 +51,10 @@ public:
     void display_list() {
         Node* current = head;
         while (current != nullptr) {
-            cout << current->name << " ";
+            cout << current->name << " -> ";
             current = current->next_pointer;
         }
-        cout << endl;
+        cout << "NULL" << endl;
     }
 };
 
