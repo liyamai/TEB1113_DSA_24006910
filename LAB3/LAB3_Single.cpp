@@ -62,9 +62,9 @@ int main() {
     LinkedList std_names;
 
     // Create nodes dynamically
-    Node* node1 = new Node{"Ali", nullptr, nullptr};
-    Node* node2 = new Node{"Alice", nullptr, nullptr};
-    Node* node3 = new Node{"Ahmed", nullptr, nullptr};
+    Node* node1 = new Node{"Ali"};
+    Node* node2 = new Node{"Alice"};
+    Node* node3 = new Node{"Ahmed"};
 
     // Insert nodes
     std_names.insert_node(node1);
