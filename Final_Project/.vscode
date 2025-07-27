@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Mac Emscripten",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Users/aliyazulk/emsdk/upstream/emscripten/system/include",
+                "/Users/aliyazulk/emsdk/upstream/emscripten/cache/sysroot/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "__EMSCRIPTEN__",
+                "WASM=1"
+            ],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/Users/aliyazulk/emsdk/upstream/emscripten/emcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
